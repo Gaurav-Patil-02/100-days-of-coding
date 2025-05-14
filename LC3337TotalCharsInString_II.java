@@ -62,4 +62,17 @@ class LC3335TotalCharsInString_II {
 
         return stringSize;
     }
+
+    public static void main(String[] args) {
+        String s = "abcyy";
+         int t= 2;
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2));
+
+ LC3335TotalCharsInString_II lc = new LC3335TotalCharsInString_II();
+
+          System.out.println(lc.lengthAfterTransformations(s, t, list));
+
+
+
+    }
 }
