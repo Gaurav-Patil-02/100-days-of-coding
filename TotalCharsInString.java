@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class LC3335TotalCharsInString {
+public class TotalCharsInString {
     static final int MOD = 1_000_000_007;
     public static int lengthAfterTransformations(String s, int t) {
         int n = s.length();

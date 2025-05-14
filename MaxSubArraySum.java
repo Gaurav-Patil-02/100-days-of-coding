@@ -16,5 +16,7 @@ public class MaxSubArraySum {
     public static void main(String[] args) {
         int arr[] = {10,25,36,45,36};
         System.out.println(maxSubarraySum(arr));
+        int num = -((-9) - (5));
+        System.out.println(num);
     }
 }

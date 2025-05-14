@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class LC523ContinuousSubarraySum {
+public class ContinuousSubarraySum {
 
      public static boolean checkSubarraySum(int[] nums, int k) {
         HashMap <Integer ,Integer> map = new HashMap<>();

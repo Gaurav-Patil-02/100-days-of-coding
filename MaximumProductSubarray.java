@@ -1,4 +1,4 @@
-public class LC152MaximumProductSubarray {
+public class MaximumProductSubarray {
 
       public static int maxProduct(int[] nums) {
         int n = nums.length;
