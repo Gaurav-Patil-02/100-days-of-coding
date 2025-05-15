@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MaxCircularSubarrSum {
 public static int maxSubarraySumCircular(int[] nums) {
   int totalSum = 0, maxSum = Integer.MIN_VALUE, minSum = Integer.MAX_VALUE;
