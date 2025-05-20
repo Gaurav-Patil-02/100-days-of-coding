@@ -11,7 +11,7 @@ public class RangeAddition {
 
         result[start] += inc;
         if(end + 1 < length){
-        result[end + 1] += inc;
+        result[end + 1] -= inc;
         }
         }
 
