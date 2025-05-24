@@ -17,5 +17,8 @@ public class FindTheMaximumSumOfNodeValues {
     public static void main(String[] args) {
        int nums[] = {1,2,1}, k = 3, edges[][] = {{0,1},{0,2}};
        System.out.println(maximumValueSum(nums, k, edges));
+
+       String str = "gsdgd";
+       char[] ch = str.toCharArray();
     }
 }
